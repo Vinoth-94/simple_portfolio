@@ -14,15 +14,16 @@ const Contact = () => {
             <div className="blur s-blur" style={{background:"#ABF1FF94"}}></div>
          </div>
          <div className="c-right">
-            <form name="contact" netlify>
-               <input type="text" name="User_name" className='user' placeholder="Name" />
-               <input type="email" name="User_email" className='user' placeholder="Email" />
-                    <textarea name="message" className='user' placeholder="Message" />
-                    <button className='btn' type="submit">Send</button>
-               {/* <input type="submit" value="Send" className='btn' /> */}
-               <div className="blur c-blur2" style={{background:"rgb(238 210 255)"}}>
-         </div>
-         </form>
+                  {/* <form name="contact" netlify>
+                     <input type="text" name="User_name" className='user' placeholder="Name" />
+                     <input type="email" name="User_email" className='user' placeholder="Email" />
+                        <textarea name="message" className='user' placeholder="Message" />
+                        <button className='btn' type="submit">Send</button>
+                     <input type="submit" value="Send" className='btn' />
+                     <div className="blur c-blur2" style={{background:"rgb(238 210 255)"}}>
+               </div>
+               </form> */}
+                 <a href="mailto:vinothajay94@gmail.com">mail me</a>
       </div>
    </div>
    </div>
