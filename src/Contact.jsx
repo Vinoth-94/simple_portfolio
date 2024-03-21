@@ -23,7 +23,7 @@ const Contact = () => {
                      <div className="blur c-blur2" style={{background:"rgb(238 210 255)"}}>
                </div>
                </form> */}
-                 <a href="mailto:vinothajay94@gmail.com">mail me</a>
+                 <a className='btn' href="mailto:vinothajay94@gmail.com">mail me</a>
       </div>
    </div>
    </div>
