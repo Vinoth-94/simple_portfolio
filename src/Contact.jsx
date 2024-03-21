@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="blur s-blur" style={{background:"#ABF1FF94"}}></div>
          </div>
          <div className="c-right">
-            <form name="contact" netlify>
+            <form name="contact" method="POST" data-netlify="true">
                <input type="text" name="User_name" className='user' placeholder="Name" />
                <input type="email" name="User_email" className='user' placeholder="Email" />
                <textarea name="message" className='user' placeholder="Message" />
