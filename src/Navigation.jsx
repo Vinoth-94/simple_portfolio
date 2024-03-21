@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Navigation() {
+
+  const [collapse,setCollapse]=useState(true)
+
+  const toggle = () => {
+    
+    setCollapse(!collapse)
+    
+  }
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
@@ -11,12 +19,13 @@ export default function Navigation() {
         <span className="d-none d-lg-block">
           <img
             className="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="img/profile.png"
+            src="./src/assets/profile.png"
             alt=""
           />
         </span>
       </a>
       <button
+        onClick={toggle}
         className="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -27,7 +36,7 @@ export default function Navigation() {
       >
      <span className="navbar-toggler-icon" />
       </button>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <div className={`${collapse ? "collapse":"" } navbar-collapse`} id="navbarSupportedContent">
         <ul className="navbar-nav">
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#about">
