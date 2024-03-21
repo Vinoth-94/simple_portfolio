@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import profile from "./assets/profile.png";
 export default function Navigation() {
 
   const [collapse,setCollapse]=useState(true)
@@ -19,7 +19,7 @@ export default function Navigation() {
         <span className="d-none d-lg-block">
           <img
             className="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="./src/assets/profile.png"
+            src={profile}
             alt=""
           />
         </span>
