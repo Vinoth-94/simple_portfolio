@@ -26,7 +26,7 @@ export default function Projects() {
                   Github
                 </a>
                 <a
-                  href="https://vinoth-94.github.io/sam_cart/"
+                  href="https://sample-cart.netlify.app"
                   target="_blank"
                   className="btn btn-secondary"
                 >
